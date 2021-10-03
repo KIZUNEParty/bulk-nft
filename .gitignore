@@ -1,5 +1,5 @@
 node_modules/
-out/
+out/*
 stdin.js
 
 .DS_Store
