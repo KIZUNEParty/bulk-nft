@@ -1,7 +1,7 @@
 # Bulk NFT
 ##### Version 1.0.0 <br /> Author : Deth
 
-![commit](https://img.shields.io/github/last-commit/No-Sleep-Club/bulk-nft?style=for-the-badge) ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNo-Sleep-Club%2Fbulk-nft&countColor=%23263759)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FNo-Sleep-Club%2Fbulk-nft&countColor=%23263759)   ![commit](https://img.shields.io/github/last-commit/No-Sleep-Club/bulk-nft?style=for-the-badge) 
 
 ## Craziest way of making NFT!
 
