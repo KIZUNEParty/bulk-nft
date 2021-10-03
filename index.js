@@ -47,7 +47,7 @@ for (let i = 0; i < a.d; i++) {
         const img01 = await loadImage('./content/01hair/' + a.part01 + '.png')
         ctx.drawImage(img01, 0, 0)
 
-        const img00 = await loadImage('./content/00headdec/' + a.part00 + '.png')
+        const img00 = await loadImage('./content/00decH/' + a.part00 + '.png')
         ctx.drawImage(img00, 0, 0)
 
         const buffer = canvas.toBuffer("image/png")
