@@ -2,7 +2,7 @@
 const w = 2000
 const h = 2000
 // img gen amount
-const iA = 3
+const iA = 10
 
 // amount of part 00
 const p00 = 1
@@ -29,26 +29,41 @@ const p10 = 1
 // amount of part 11
 const p11 = 1
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // No Edit Part!
-module.exports = Object.freeze ({
+module.exports = Object ({
     width: w,
     height: h,
     d: iA,
 
-    r: Math.floor(Math.random() * 255),
-    g: Math.floor(Math.random() * 255),
-    b: Math.floor(Math.random() * 255),
-
-    part00: Math.floor(Math.random() * p00),
-    part01: Math.floor(Math.random() * p01),
-    part02: Math.floor(Math.random() * p02),
-    part03: Math.floor(Math.random() * p03),
-    part04: Math.floor(Math.random() * p04),
-    part05: Math.floor(Math.random() * p05),
-    part06: Math.floor(Math.random() * p06),
-    part07: Math.floor(Math.random() * p07),
-    part08: Math.floor(Math.random() * p08),
-    part09: Math.floor(Math.random() * p09),
-    part10: Math.floor(Math.random() * p10),
-    part11: Math.floor(Math.random() * p11)
+    pa00: p00,
+    pa01: p01,
+    pa02: p02,
+    pa03: p03,
+    pa04: p04,
+    pa05: p05,
+    pa06: p06,
+    pa07: p07,
+    pa08: p08,
+    pa09: p09,
+    pa10: p10,
+    pa11: p11
 })
