@@ -1,15 +1,15 @@
 const { createCanvas, loadImage }= require('canvas')
 const fs = require('fs')
 const { exit } = require('process')
-const { a } = require('./cPart')
+var a = require('./cPart')
 
 for (let i = 0; i < a.d; i++) {
-    const canvas = createCanvas(width, height)
+    const canvas = createCanvas(a.width, a.height)
     const ctx = canvas.getContext('2d')
  
-    ctx.fillStyle = 'rgb(' + r + ', ' + g + ', ' + b + ')'
+    ctx.fillStyle = 'rgb(' + a.r + ', ' + a.g + ', ' + a.b + ')'
 
-    ctx.fillRect(0, 0, width, height)
+    ctx.fillRect(0, 0, a.width, a.height)
 
     async function outpart() {
         console.log('Starting Pic' + i)
