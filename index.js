@@ -25,6 +25,27 @@ async function outpart() {
     const img07 = await loadImage('./content/07decL/0.png')
     ctx.drawImage(img07, 0, 0)
 
+    const img06 = await loadImage('./content/06ear/0.png')
+    ctx.drawImage(img06, 0, 0)
+
+    const img05 = await loadImage('./content/05head/0.png')
+    ctx.drawImage(img05, 0, 0)
+
+    const img04 = await loadImage('./content/04mouth/0.png')
+    ctx.drawImage(img04, 0, 0)
+
+    const img03 = await loadImage('./content/03eye/0.png')
+    ctx.drawImage(img03, 0, 0)
+
+    const img02 = await loadImage('./content/02decEye/0.png')
+    ctx.drawImage(img02, 0, 0)
+
+    const img01 = await loadImage('./content/01hair/0.png')
+    ctx.drawImage(img01, 0, 0)
+
+    // const img00 = await loadImage('./content/00headdec/0.png')
+    // ctx.drawImage(img00, 0, 0)
+
     const buffer = canvas.toBuffer("image/png")
     fs.writeFileSync("./out/out.png", buffer)
 }
