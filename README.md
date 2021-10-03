@@ -14,6 +14,7 @@ This project is starting by some of lazinest on NFT Drawing. So I made this for 
 git clone https://github.com/No-Sleep-Club/bulk-nft.git
 cd bulk-nft
 npm i 
+mkdir out
 npm start
 ```
 
