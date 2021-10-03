@@ -10,40 +10,52 @@ ctx.fillStyle = 'rgb(37, 220, 240)'
 ctx.fillRect(0, 0, width, height)
 
 async function outpart() {
-    const img11 = await loadImage('./content/11decBack/0.png')
+    const part11 = Math.floor(Math.random() * 1);
+    const img11 = await loadImage('./content/11decBack/' + part11 + '.png')
     ctx.drawImage(img11, 0, 0)
 
-    const img10 = await loadImage('./content/10body/0.png')
+    const part10 = Math.floor(Math.random() * 1);
+    const img10 = await loadImage('./content/10body/' + part10 + '.png')
     ctx.drawImage(img10, 0, 0)
 
-    // const img09 = await loadImage('./content/09suit/0.png')
+    const part09 = Math.floor(Math.random() * 1);
+    // const img09 = await loadImage('./content/09suit/' + part09 + '.png')
     // ctx.drawImage(img09, 0, 0)
 
-    const img08 = await loadImage('./content/08decR/0.png')
+    const part08 = Math.floor(Math.random() * 1);
+    const img08 = await loadImage('./content/08decR/' + part08 + '.png')
     ctx.drawImage(img08, 0, 0)
     
-    const img07 = await loadImage('./content/07decL/0.png')
+    const part07 = Math.floor(Math.random() * 1);
+    const img07 = await loadImage('./content/07decL/' + part07 + '.png')
     ctx.drawImage(img07, 0, 0)
 
-    const img06 = await loadImage('./content/06ear/0.png')
+    const part06 = Math.floor(Math.random() * 1);
+    const img06 = await loadImage('./content/06ear/' + part06 + '.png')
     ctx.drawImage(img06, 0, 0)
 
-    const img05 = await loadImage('./content/05head/0.png')
+    const part05 = Math.floor(Math.random() * 1);
+    const img05 = await loadImge('./content/05head/' + part05 + '.png')
     ctx.drawImage(img05, 0, 0)
 
-    const img04 = await loadImage('./content/04mouth/0.png')
+    const part04 = Math.floor(Math.random() * 1);
+    const img04 = await loadImage('./content/04mouth/' + part04 + '.png')
     ctx.drawImage(img04, 0, 0)
 
-    const img03 = await loadImage('./content/03eye/0.png')
+    const part03 = Math.floor(Math.random() * 1);
+    const img03 = await loadImage('./content/03eye/' + part03 + '.png')
     ctx.drawImage(img03, 0, 0)
 
-    const img02 = await loadImage('./content/02decEye/0.png')
+    const part02 = Math.floor(Math.random() * 1);
+    const img02 = await loadImage('./content/02decEye/'+ part02 +'.png')
     ctx.drawImage(img02, 0, 0)
 
-    const img01 = await loadImage('./content/01hair/0.png')
+    const part01 = Math.floor(Math.random() * 2);
+    const img01 = await loadImage('./content/01hair/' + part01 + '.png')
     ctx.drawImage(img01, 0, 0)
 
-    // const img00 = await loadImage('./content/00headdec/0.png')
+    const part00 = Math.floor(Math.random() * 0);
+    // const img00 = await loadImage('./content/00headdec/' + part00 + '.png')
     // ctx.drawImage(img00, 0, 0)
 
     const buffer = canvas.toBuffer("image/png")
