@@ -8,6 +8,9 @@
 
 ## Usage
 
-```
+```bash
 git clone https://github.com/No-Sleep-Club/bulk-nft.git
+cd bulk-nft
+npm i 
+npm start
 ```
