@@ -1,17 +1,12 @@
 const { createCanvas, loadImage }= require('canvas')
 const fs = require('fs')
 const { exit } = require('process')
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
 
 const width = 2000
 const height = 2000
 const d = 3
-const dmax = 3
 
-for (let i = 0; i < dmax; i++) {
+for (let i = 0; i < d; i++) {
     const canvas = createCanvas(width, height)
     const ctx = canvas.getContext('2d')
 
@@ -78,10 +73,10 @@ for (let i = 0; i < dmax; i++) {
         fs.writeFileSync("./out/" + i + ".png", buffer)
 
         console.log('Finished ' + i + ' Pics')
+        if(i === d) {
+            exit(1);
+        }
     }    
+
     outpart()
-    
-    if (i === 3) {
-        exit();
-    }
 }
