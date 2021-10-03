@@ -30,8 +30,8 @@ for (let i = 0; i < d; i++) {
         ctx.drawImage(img10, 0, 0)
 
         const part09 = Math.floor(Math.random() * 1);
-        // const img09 = await loadImage('./content/09suit/' + part09 + '.png')
-        // ctx.drawImage(img09, 0, 0)
+        const img09 = await loadImage('./content/09suit/' + part09 + '.png')
+        ctx.drawImage(img09, 0, 0)
 
         const part08 = Math.floor(Math.random() * 1);
         const img08 = await loadImage('./content/08decR/' + part08 + '.png')
@@ -66,8 +66,8 @@ for (let i = 0; i < d; i++) {
         ctx.drawImage(img01, 0, 0)
 
         const part00 = Math.floor(Math.random() * 0);
-        // const img00 = await loadImage('./content/00headdec/' + part00 + '.png')
-        // ctx.drawImage(img00, 0, 0)
+        const img00 = await loadImage('./content/00headdec/' + part00 + '.png')
+        ctx.drawImage(img00, 0, 0)
 
         const buffer = canvas.toBuffer("image/png")
         fs.writeFileSync("./out/" + i + ".png", buffer)
