@@ -1,45 +1,47 @@
 // edit frame width and height
 const width = 2000
 const height = 2000
-
 // img gen amount
 const d = 3
 
 // amount of part 00
 const p00 = 1
-
 // amount of part 01
 const p01 = 1
-
 // amount of part 02
 const p02 = 1
-
 // amount of part 03
 const p03 = 1
-
 // amount of part 04
 const p04 = 1
-
 // amount of part 05
 const p05 = 1
-
 // amount of part 06
 const p06 = 1
-
 // amount of part 07
 const p07 = 1
-
 // amount of part 08
 const p08 = 1
-
 // amount of part 09
 const p09 = 1
-
 // amount of part 10
 const p10 = 1
-
 // amount of part 11
 const p11 = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

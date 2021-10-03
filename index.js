@@ -1,10 +1,9 @@
 const { createCanvas, loadImage }= require('canvas')
 const fs = require('fs')
 const { exit } = require('process')
+const { a } = require('./cPart')
 
-import './cPart'
-
-for (let i = 0; i < d; i++) {
+for (let i = 0; i < a.d; i++) {
     const canvas = createCanvas(width, height)
     const ctx = canvas.getContext('2d')
  
@@ -15,40 +14,40 @@ for (let i = 0; i < d; i++) {
     async function outpart() {
         console.log('Starting Pic' + i)
 
-        const img11 = await loadImage('./content/11decBack/' + part11 + '.png')
+        const img11 = await loadImage('./content/11decBack/' + a.part11 + '.png')
         ctx.drawImage(img11, 0, 0)
 
-        const img10 = await loadImage('./content/10body/' + part10 + '.png')
+        const img10 = await loadImage('./content/10body/' + a.part10 + '.png')
         ctx.drawImage(img10, 0, 0)
 
-        const img09 = await loadImage('./content/09suit/' + part09 + '.png')
+        const img09 = await loadImage('./content/09suit/' + a.part09 + '.png')
         ctx.drawImage(img09, 0, 0)
 
-        const img08 = await loadImage('./content/08decR/' + part08 + '.png')
+        const img08 = await loadImage('./content/08decR/' + a.part08 + '.png')
         ctx.drawImage(img08, 0, 0)
 
-        const img07 = await loadImage('./content/07decL/' + part07 + '.png')
+        const img07 = await loadImage('./content/07decL/' + a.part07 + '.png')
         ctx.drawImage(img07, 0, 0)
 
-        const img06 = await loadImage('./content/06ear/' + part06 + '.png')
+        const img06 = await loadImage('./content/06ear/' + a.part06 + '.png')
         ctx.drawImage(img06, 0, 0)
 
-        const img05 = await loadImage('./content/05head/' + part05 + '.png')
+        const img05 = await loadImage('./content/05head/' + a.part05 + '.png')
         ctx.drawImage(img05, 0, 0)
 
-        const img04 = await loadImage('./content/04mouth/' + part04 + '.png')
+        const img04 = await loadImage('./content/04mouth/' + a.part04 + '.png')
         ctx.drawImage(img04, 0, 0)
 
-        const img03 = await loadImage('./content/03eye/' + part03 + '.png')
+        const img03 = await loadImage('./content/03eye/' + a.part03 + '.png')
         ctx.drawImage(img03, 0, 0)
 
-        const img02 = await loadImage('./content/02decEye/' + part02 + '.png')
+        const img02 = await loadImage('./content/02decEye/' + a.part02 + '.png')
         ctx.drawImage(img02, 0, 0)
 
-        const img01 = await loadImage('./content/01hair/' + part01 + '.png')
+        const img01 = await loadImage('./content/01hair/' + a.part01 + '.png')
         ctx.drawImage(img01, 0, 0)
 
-        const img00 = await loadImage('./content/00headdec/' + part00 + '.png')
+        const img00 = await loadImage('./content/00headdec/' + a.part00 + '.png')
         ctx.drawImage(img00, 0, 0)
 
         const buffer = canvas.toBuffer("image/png")
