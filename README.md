@@ -5,7 +5,7 @@
 
 ## Craziest way of making NFT!
 
-This project is starting by some of lazinest on NFT Drawing. So I made this for someone who too lazy to make many of them by merging composition into one as random using only 'canva' and 'fs' on 'nodejs'
+This project is starting by some of lazinest on NFT Drawing. So I made this for someone who too lazy to make many of them by merging composition into one as random using only 'canva' and 'fs' on 'nodejs'.
 
 
 ## Usage
